@@ -20,39 +20,39 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function Dashboard() {
   return (
     <Box sx={{ flexGrow: 1, px: 2, py: 3 }}>
-      <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
+      <Grid container rowSpacing={2} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
         <Grid item xs={6} md={3}>
-          <Item>
+          <Item elevation={1}>
             <OverviewCard />
           </Item>
         </Grid>
         <Grid item xs={6} md={3}>
-          <Item>
+          <Item elevation={1}>
             <OverviewCard />
           </Item>
         </Grid>
         <Grid item xs={6} md={3}>
-          <Item>
+          <Item elevation={1}>
             <OverviewCard />
           </Item>
         </Grid>
         <Grid item xs={6} md={3}>
-          <Item>
+          <Item elevation={1}>
             <OverviewCard />
           </Item>
         </Grid>
         <Grid item xs={6} md={12}>
-          <Item>
+          <Item elevation={1}>
             <TotalExpensesCard />
           </Item>
         </Grid>
         <Grid item xs={6} md={6}>
-          <Item>
+          <Item elevation={1}>
             <AccountInfoCard />
           </Item>
         </Grid>
         <Grid item xs={6} md={6}>
-          <Item>
+          <Item elevation={1}>
             <IncomeExpenseCard />
           </Item>
         </Grid>

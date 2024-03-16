@@ -11,6 +11,8 @@ const OverviewCardContainer = styled(Box)(({ theme }) => ({
   },
 }));
 
+const overviewCardData = [{}];
+
 export default function Dashboard() {
   return <OverviewCardContainer sx={{ px: 2, py: 3 }}>Overview card</OverviewCardContainer>;
 }
