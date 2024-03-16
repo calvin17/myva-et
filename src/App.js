@@ -1,7 +1,7 @@
 import React from 'react';
 
-import ExpanseTracker from './components/ExpanseTracker';
+import ExpanseTrackerDashboard from './components/dashboard';
 
 export default () => {
-  return <ExpanseTracker />;
+  return <ExpanseTrackerDashboard />;
 };
